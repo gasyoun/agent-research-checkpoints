@@ -16,9 +16,9 @@ _Created: 15-11-2026 · Last updated: 15-11-2026_
   fix pinned the *configured* route. This proposal is NOT a duplicate of
   that bug report.
 - The distinct, narrow gap this feature addresses, verified against
-  `main` on 15-11-2026: the execute-phase cross_ai_delegation acceptance
+  `next` on 15-11-2026: the execute-phase cross_ai_delegation acceptance
   seam in
-  [gsd-core/workflows/execute-phase/detail/elaboration.md](https://github.com/open-gsd/gsd-core/blob/main/gsd-core/workflows/execute-phase/detail/elaboration.md)
+  [gsd-core/workflows/execute-phase/detail/elaboration.md](https://github.com/open-gsd/gsd-core/blob/7977b4762a2fdabd617d9ccc81b770cdf8a4a5b2/gsd-core/workflows/execute-phase/detail/elaboration.md)
   accepts a delegated run on exit code 0 plus a meaningful
   heading/description/SUMMARY — there is no model-identity proof in that
   acceptance seam. This is a claim about that seam only; gsd-core may
@@ -126,7 +126,7 @@ The reference fixture is not a gsd-core plugin, has no host adapter, and
 does not simulate host integration or claim native enforcement; it has
 not been deployed, and no performance claims are made or implied. No
 live-run observations of gsd-core are claimed — the seam description is
-from the public `main` branch as of 15-11-2026. Native implementation is
+from the public `next` branch as of 15-11-2026. Native implementation is
 the maintainers' call; no upstream PR is planned from us.
 
 _Dr. Mārcis Gasūns_ · drafted with GLM 5.3 (`zai-coding-plan/glm-5.3`)
