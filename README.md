@@ -14,13 +14,19 @@ anything, and you can read each module in one sitting (stdlib only,
 
 | Module | Question it answers | Status | Discussion target |
 |---|---|---|---|
-| [`checkpoints.py`](checkpoints.py) | When is recorded research still fresh enough to act on? | Reviewed; 11 tests (independent logic review 15-11-2026 fixed two semantic blockers) | Comment draft for [obra/superpowers#2129](https://github.com/obra/superpowers/issues/2129) (OPEN; research prior art before design) |
-| [`coverage.py`](coverage.py) | Is a lifecycle hook *configured*, *invoked*, and *actually enforcing* at this runtime event — or inert? | Reviewed 15-11-2026: independent review forced one fix — enforcement now requires an observed denial; 11 tests | Comment draft for [open-gsd/gsd-core#6178](https://github.com/open-gsd/gsd-core/issues/6178) (OPEN; opt-in lifecycle-hook contract for quick tasks) |
-| [`provenance.py`](provenance.py) | Did the executor that actually ran match the configured model route, on trusted evidence? | Independently reviewed; 7 tests | Distinct opt-in feature draft (observed-executor provenance at delegation acceptance); historical context: [#5260](https://github.com/open-gsd/gsd-core/issues/5260) (CLOSED — fixed argv `--model`) |
+| [`checkpoints.py`](checkpoints.py) | When is recorded research still fresh enough to act on? | Reviewed; 11 tests (independent logic review 15-11-2026 fixed two semantic blockers) | Contribution to [obra/superpowers#2129](https://github.com/obra/superpowers/issues/2129) (OPEN; research prior art before design) |
+| [`coverage.py`](coverage.py) | Is a lifecycle hook *configured*, *invoked*, and *actually enforcing* at this runtime event — or inert? | Reviewed 15-11-2026: independent review forced one fix — enforcement now requires an observed denial; 11 tests | Contribution to [open-gsd/gsd-core#6178](https://github.com/open-gsd/gsd-core/issues/6178) (OPEN; opt-in lifecycle-hook contract for quick tasks) |
+| [`provenance.py`](provenance.py) | Did the executor that actually ran match the configured model route, on trusted evidence? | Independently reviewed; 7 tests | Distinct opt-in feature proposal (observed-executor provenance at delegation acceptance); historical context: [#5260](https://github.com/open-gsd/gsd-core/issues/5260) (CLOSED — fixed argv `--model`) |
 
 All three accompany proposal drafts under [`proposals/`](proposals/);
-nothing has been posted upstream. Upstream issue states above were
+The upstream contributions are linked below. Upstream issue states above were
 re-verified with `gh issue view` on 15-11-2026.
+
+## Upstream tracking
+
+- Research freshness: [Superpowers #2129 contribution](https://github.com/obra/superpowers/issues/2129#issuecomment-6891952023).
+- Effective hook blocking: [GSD Core #6178 contribution](https://github.com/open-gsd/gsd-core/issues/6178#issuecomment-6891960122).
+- Observed executor provenance: [GSD Core feature request #6221](https://github.com/open-gsd/gsd-core/issues/6221).
 
 ## What each fixture pins down
 
